@@ -29,9 +29,7 @@ public class MyLinkedList<T extends Comparable <T>> {
         head = firstNode;
     }
 
-//    public int getSize() {
-//        return size;
-//    }
+
 
     public void addLast(T t) {
         if (head == null) {
